@@ -19,7 +19,7 @@
 ### ENVIRONMENT PREPARATIONS ###
 
 # List of packages to check, install, and load
-packages <- c("openxlsx", "ordinal", "countrycode", "ggplot2", "dplyr", "purrr", "zoo", "mice", "writexl")
+packages <- c("openxlsx", "ordinal", "countrycode", "dplyr", "purrr", "zoo", "mice", "writexl")
 
 # Loop through the list of packages
 for (package in packages) {
